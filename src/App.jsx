@@ -43,7 +43,7 @@ const [error, setError] = useState()
 
   return (
     <div className="container">
-      <h2>Food Recipe Store</h2>
+      <h2 className="contain">Food Recipe Store</h2>
       {error != ""? <p style={{color:"red"}}>{error}</p> : "" }
       <form autoComplete="off"onSubmit={fetchData}>
         <input
